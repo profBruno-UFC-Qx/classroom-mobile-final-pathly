@@ -3,29 +3,30 @@
 # Proposta de aplicativo
 
 ## Equipe
-* **Nome do Aluno(a) 1:** [Seu nome e matrícula]
-* **Nome do Aluno(a) 2:** [Seu nome e matrícula]
-* **Nome do Aluno(a) 3:** [Seu nome e matrícula]
-* ...
+* **Nome do Aluno(a):** George Felipe Placido Nogueira - 548348
 
 ---
 
 ## Título do Projeto
-[Escolha um título criativo e descritivo para o seu projeto.]
+Pathly: Seu Diário Pessoal de Viagens e Memórias
 
 ## Descrição do Projeto
-[Descreva em 2-3 parágrafos o que o seu projeto faz. Qual é o problema que ele resolve? Quem é o público-alvo? Quais são as principais funcionalidades?]
+Pathly é um aplicativo móvel Android, desenvolvido inteiramente em Kotlin e Jetpack Compose, que funciona como um diário de viagens e memórias. O projeto nasce para resolver o problema de memórias de locais visitados que se perdem em rolos de câmera, aplicativos de notas e na própria memória. Muitas vezes, lembramos de um lugar incrível que visitamos, mas não conseguimos juntar facilmente a foto que tiramos, a localização exata e o sentimento daquele momento.
+
+O público-alvo são viajantes, exploradores urbanos ou simplesmente pessoas que gostam de catalogar suas experiências e locais favoritos. O Pathly centraliza tudo isso: o usuário pode criar um novo "registro", anexar uma foto (seja tirada na hora ou da galeria), capturar as coordenadas exatas com o GPS e adicionar notas. O aplicativo salva tudo em um banco de dados local (Room) para acesso offline e, para adicionar contexto, busca o clima atual daquela localização usando uma API externa (OpenWeatherMap).
 
 ---
 
 ## Funcionalidades Principais
 [Liste as principais funcionalidades do projeto. Use caixas de seleção para que a equipe possa marcar as concluídas nas próximas etapas.]
 
-- [ ] Funcionalidade 1: [Breve descrição da funcionalidade]
-- [ ] Funcionalidade 2: [Breve descrição da funcionalidade]
-- [ ] Funcionalidade 3: [Breve descrição da funcionalidade]
-- [ ] ...
-
+- [ ] CRUD: Permitirá o usuário a criar, ler, atualizar e deletar memórias de locais.
+- [ ] Salvar Registros: Salvar todos os registros permanentemente no banco de dados local.
+- [ ] Localização: Capturar a localização exata (Latitude/Longitude) via GPS ao adicionar um novo local.
+- [ ] Anexar Fotos: Anexar uma foto personalizada para cada local, utilizando a Câmera ou a Galeria do dispositivo.
+- [ ] Exibir Clima: Buscar e exibir o clima atual do local salvo (via integração com API OpenWeatherMap).
+- [ ] Navegação de telas: Implementar navegação entre a tela de lista, tela de detalhes e tela de adição/edição.
+- [ ] Temas Dark e Light: Suporte completo a tema claro e escuro (MaterialTheme).
 ---
 
 > [!WARNING]
